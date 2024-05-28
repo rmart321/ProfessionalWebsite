@@ -1,0 +1,48 @@
+
+#skills{
+    position: relative;
+    top: -50px;
+    font-family: Didot;
+    font-size: 60px;
+    background: linear-gradient(to right, #072E33, #0C7078, #0F9690, #6DA5C0, #294D51);
+    background-size: 200% auto;
+    background-clip: text;
+    color: transparent;
+    width: 40%;
+    text-align: center;
+    margin: auto; 
+    margin-bottom: 20px;
+    animation: gradient 5s linear infinite;
+  
+  }
+  
+  .skillsSection{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+    top: 925px;
+    margin-bottom: 50px;
+    /* background-color: #072E33; */
+  }
+  
+  .skillsSection h1 {
+    color: white;
+  }
+  
+  #education {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transition: transform 0.3s ease;
+  }
+  
+  #education .card-img-top {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #education:hover {
+    transform: scale(1.2);
+  }
+  

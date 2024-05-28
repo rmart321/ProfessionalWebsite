@@ -1,0 +1,60 @@
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+  
+.animated-background {
+  background: linear-gradient(270deg, #072E33, #0C7078, #0F9690, #6DA5C0, #294D51);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  display: flex;
+}
+
+#textWrapper{
+  width: 100%;
+  height: 80%;
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#main-title {
+  position: relative; 
+  top: 80px;
+  z-index: 10;
+  color: white;
+  width: 100%; 
+  text-align: center;
+  font-family: Tahoma, Blippo, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#main-title h1{ 
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#type-text {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: Didot, Marker Felt, Optima, Apple Chancery, American Typewriter, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 100px;
+/*   
+  background-color: rgb(37, 119, 191); */
+}

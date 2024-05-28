@@ -1,0 +1,68 @@
+#root{
+  background-color: #292727;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  width: 100%;
+  height: 100%;
+  position: static;
+  z-index:1;
+}
+
+#home{
+  position: relative;
+  z-index: -10;
+}
+
+#projects{
+  position: relative;
+  top: 600px;
+  font-family: Didot;
+  font-size: 60px;
+  background: linear-gradient(to right, #072E33, #0C7078, #0F9690, #6DA5C0, #294D51);
+  background-size: 200% auto;
+  background-clip: text;
+  color: transparent;
+  width: 40%;
+  text-align: center;
+  margin: auto; 
+  margin-bottom: 20px;
+  animation: gradient 5s linear infinite;
+}
+
+#interests {
+  position: relative;
+  font-family: Didot;
+  font-size: 60px;
+  background: linear-gradient(to right, #072E33, #0C7078, #0F9690, #6DA5C0, #294D51);
+  background-size: 200% auto;
+  background-clip: text;
+  color: transparent;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  top: 950px;
+  animation: gradient 5s linear infinite;
+}
+
+#contact {
+  position: relative;
+  font-family: Didot;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  top: 1280px;
+  animation: gradient 5s linear infinite;
+}
+
+#email {
+  position: relative;
+  top: 1295px;
+  color: white;
+}
+
+#emailLink{
+  text-decoration: none;
+}

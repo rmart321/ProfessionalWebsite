@@ -1,0 +1,48 @@
+#interestSection {
+    position: relative;
+    top: 1000px;
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+#interestText {
+    width: 60%;
+    height: 300px;
+    color: white;
+    /* background-color: red; */
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#interestText p {
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: Didot;
+}
+  
+#recordWrap {
+    /* background-color: green; */
+    width: 40%;
+    height: auto;
+}
+  
+.recordGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    /* padding: 10px; */
+    margin-left: 20px;
+}
+  
+.recordPlaceholder img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.recordPlaceholder img:hover{
+    transform: scale(1.2);
+}

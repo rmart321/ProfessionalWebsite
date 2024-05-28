@@ -1,0 +1,15 @@
+.List{
+    position: relative;
+    top: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.List-Item {
+    transition: transform 0.3s ease;
+}
+.List-Item:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}

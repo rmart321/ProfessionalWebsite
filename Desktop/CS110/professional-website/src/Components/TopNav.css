@@ -1,0 +1,9 @@
+#nav{
+    opacity: 0.5;
+}
+
+#brandStyle {
+    color: hsl(209, 94%, 38%);
+    font-weight: bold;
+    font-size: 30px;
+}
